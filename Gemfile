@@ -42,6 +42,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara' #allows rspec to interact with websites like a user would
   gem 'launchy' # save and open page
+  gem 'shoulda-matchers', '~> 5.0'
 end
 
 group :development do
