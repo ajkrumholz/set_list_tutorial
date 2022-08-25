@@ -6,6 +6,9 @@
 
   <h1>Songs</h1>
   <% @songs.each do |song| %>
-    <p><%= "#{song.title}" %></p>
+    <h2><%= "#{song.title}" %></h2>
+    <p>Artist: <%= song.artist.name %></p>
+    <p><%= "Length: #{song.length}" %></p>
+    <p><%= "Play Count: #{song.play_count}" %></p>
   <% end %>
 </body>
